@@ -1,0 +1,11 @@
+[2024-08-11T10:32:18.641+0000] {processor.py:161} INFO - Started process (PID=57) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-08-11T10:32:18.732+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-08-11T10:32:18.893+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:18.877+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-08-11T10:32:20.353+0000] {processor.py:840} INFO - DAG(s) 'example_local_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-08-11T10:32:25.324+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:25.304+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_local_kubernetes_executor
+[2024-08-11T10:32:25.399+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:25.397+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_local_kubernetes_executor
+[2024-08-11T10:32:25.422+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:25.421+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_local_kubernetes_executor
+[2024-08-11T10:32:25.426+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:25.425+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T10:32:25.628+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:25.624+0000] {dag.py:3111} INFO - Creating ORM DAG for example_local_kubernetes_executor
+[2024-08-11T10:32:25.636+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:25.635+0000] {dag.py:3947} INFO - Setting next_dagrun for example_local_kubernetes_executor to None, run_after=None
+[2024-08-11T10:32:25.794+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 7.630 seconds

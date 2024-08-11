@@ -1,0 +1,11 @@
+[2024-08-11T10:32:38.397+0000] {processor.py:161} INFO - Started process (PID=70) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T10:32:38.400+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T10:32:38.405+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:38.404+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T10:32:38.455+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T10:32:38.980+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:38.977+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-08-11T10:32:39.005+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:39.004+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-08-11T10:32:39.028+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:39.028+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-08-11T10:32:39.034+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:39.033+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T10:32:39.065+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:39.065+0000] {dag.py:3111} INFO - Creating ORM DAG for example_setup_teardown
+[2024-08-11T10:32:39.258+0000] {logging_mixin.py:188} INFO - [2024-08-11T10:32:39.257+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T10:32:39.304+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.930 seconds
